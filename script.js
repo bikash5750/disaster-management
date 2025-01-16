@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const incidentForm = document.getElementById("incidentForm");
   const resourceForm = document.getElementById("resourceForm");
   const incidentList = document.querySelector("#incidentList ul");
-  const resourceList = document.querySelector("#resourceList ul");
+  //const resourceList = document.querySelector("#resourceList ul");
 
 
   incidentForm.addEventListener("submit", (e) => {
