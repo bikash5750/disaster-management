@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
   incidentForm.addEventListener("submit", (e) => {
-      e.preventDefault();
+      //e.preventDefault();
       const incidentType = document.getElementById("incidentType").value;
       const location = document.getElementById("location").value;
 
